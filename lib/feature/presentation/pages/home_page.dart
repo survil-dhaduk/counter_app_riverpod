@@ -21,6 +21,7 @@ class MyHomepage extends ConsumerWidget {
         ),
         body: Center(
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Consumer(
                 builder: (context, ref, child) =>
