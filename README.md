@@ -1,16 +1,44 @@
-# counter_app_riverpod
+# Counter App with Riverpod
 
-A new Flutter project.
+## Overview
+This is a simple counter application built using Flutter and Riverpod for state management. The app demonstrates the use of clean architecture principles and provides a responsive UI.
+
+## Features
+- Increment and decrement counter
+- Light and dark theme support
+- Clean architecture structure
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
+- Flutter SDK
+- Dart
 
-A few resources to get you started if this is your first Flutter project:
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/counter_app_riverpod.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd counter_app_riverpod
+   ```
+3. Install dependencies:
+   ```bash
+   flutter pub get
+   ```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Running the App
+To run the app, use the following command:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Architecture
+The project follows a clean architecture approach, separating concerns into different layers:
+- **Presentation Layer**: Contains UI components and state management.
+- **Domain Layer**: Contains business logic and use cases (if applicable).
+- **Data Layer**: Manages data sources and repositories (if applicable).
+
+## Contributing
+Feel free to submit issues or pull requests for improvements.
+
+## License
+This project is licensed under the MIT License.
